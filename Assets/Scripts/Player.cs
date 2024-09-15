@@ -6,21 +6,27 @@ public class Player : MonoBehaviour
 {
     public float speed;
     private Rigidbody2D rig;
-    private Vector2 direction;
+    private Vector2 _direction;
+    public Vector2 direction{
+        get { return _direction; }
+        set { _direction = value; }
+    }
+    public Rigidbody2D Rig { get => rig; set => rig = value; }
 
     private void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+
     }
 
     private void Update()
     {
-        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        _direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
     }
 
     private void FixedUpdate()
     {
-        rig.MovePosition(rig.position + direction * speed * Time.fixedDeltaTime);
+        rig.MovePosition(rig.position + _direction * speed * Time.fixedDeltaTime);
     }
 
 }
