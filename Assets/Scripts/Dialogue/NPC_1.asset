@@ -19,7 +19,8 @@ MonoBehaviour:
   - actorName: 
     profile: {fileID: -2097564671, guid: 7b3113cb18ef0c442ac2222b944da473, type: 3}
     sentence:
-      portuguese: Salve quebradinha!!
+      portuguese: "Ol\xE1, esse foi meu progresso de hoje, tivemos anima\xE7\xF5es
+        novas e agora a nossa primeira intera\xE7\xE3o com o Ronaldo (NPC)"
       english: 
       spanish: 
   - actorName: 

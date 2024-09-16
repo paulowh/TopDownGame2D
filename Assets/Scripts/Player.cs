@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float runSpeed;
 
     private Rigidbody2D rig;
-    
+
     private float initialSpeed;
     private bool _isRunning;
     private bool _isRolling;
@@ -52,34 +52,41 @@ public class Player : MonoBehaviour
 
     #region  Movement
 
-    void OnInput(){
+    void OnInput()
+    {
         _direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
     }
 
-    void OnMove(){
+    void OnMove()
+    {
         rig.MovePosition(rig.position + _direction * speed * Time.fixedDeltaTime);
     }
 
-    void OnRun(){
+    void OnRun()
+    {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             speed = runSpeed;
             isRunning = true;
         }
 
-        if (Input.GetKeyUp(KeyCode.LeftShift)){
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
             speed = initialSpeed;
             isRunning = false;
         }
     }
 
-    void OnRoll(){
-        if (Input.GetMouseButtonDown(1)){
+    void OnRoll()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
             _isRolling = true;
         }
 
-        if (Input.GetMouseButtonUp(1)){
+        if (Input.GetMouseButtonUp(1))
+        {
             _isRolling = false;
         }
 

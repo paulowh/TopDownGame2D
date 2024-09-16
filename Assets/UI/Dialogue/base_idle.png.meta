@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9a7e6de9b6f98b741a5e7dc6866464e6
+guid: 27c19fa7bb0675b4aa86e74fd46bb963
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: curlyhair_idle_strip9_0
+      name: base_idle_strip9_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,20 +113,20 @@ TextureImporter:
         width: 96
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59098653292545b48bfea0ad2b401408
-      internalID: 445782305
+      spriteID: 1fd40354bc5b7194cae98df0b7b57e0b
+      internalID: -263215791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: curlyhair_idle_strip9_1
+      name: base_idle_strip9_1
       rect:
         serializedVersion: 2
         x: 96
@@ -134,20 +134,20 @@ TextureImporter:
         width: 96
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ff55b55dd68da242ae164a715bd63ac
-      internalID: 2021909591
+      spriteID: eb7f3d257115c0845856f55ae65a54ef
+      internalID: 1191120630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: curlyhair_idle_strip9_2
+      name: base_idle_strip9_2
       rect:
         serializedVersion: 2
         x: 192
@@ -155,20 +155,20 @@ TextureImporter:
         width: 96
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26173341975eb7b46869b2494c34d638
-      internalID: -1377436567
+      spriteID: 3fc865088fdd1e148835bf63cc891cc0
+      internalID: 1102144291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: curlyhair_idle_strip9_3
+      name: base_idle_strip9_3
       rect:
         serializedVersion: 2
         x: 288
@@ -176,20 +176,20 @@ TextureImporter:
         width: 96
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 622066573d3e4884faeea0665da3049a
-      internalID: -158346133
+      spriteID: 2f65ddd6273ae2e45849f7b616f670f1
+      internalID: -434225320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: curlyhair_idle_strip9_4
+      name: base_idle_strip9_4
       rect:
         serializedVersion: 2
         x: 384
@@ -197,20 +197,20 @@ TextureImporter:
         width: 96
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5699285d5b4e4b4fb7be341d9b83538
-      internalID: 1605940840
+      spriteID: 544f52e756e57b34b82734b8b8cd527e
+      internalID: -441211880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: curlyhair_idle_strip9_5
+      name: base_idle_strip9_5
       rect:
         serializedVersion: 2
         x: 480
@@ -218,20 +218,20 @@ TextureImporter:
         width: 96
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b24c09cb60375734098ab24bc0579b56
-      internalID: 1119306829
+      spriteID: 1abda6db3897d8d44915a49996e48f2a
+      internalID: 700679091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: curlyhair_idle_strip9_6
+      name: base_idle_strip9_6
       rect:
         serializedVersion: 2
         x: 576
@@ -239,20 +239,20 @@ TextureImporter:
         width: 96
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a06cd1885fd301e428f7cf98bdcc4a74
-      internalID: -1632484306
+      spriteID: 8e7e99d54e2296348abb5c3599f44c27
+      internalID: 698062621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: curlyhair_idle_strip9_7
+      name: base_idle_strip9_7
       rect:
         serializedVersion: 2
         x: 672
@@ -260,20 +260,20 @@ TextureImporter:
         width: 96
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06d0061db3a83444aa7ffb96e2d031b5
-      internalID: 1387932191
+      spriteID: 74d79ade214da144687f5297ece4eff3
+      internalID: 1925171097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: curlyhair_idle_strip9_8
+      name: base_idle_strip9_8
       rect:
         serializedVersion: 2
         x: 768
@@ -281,14 +281,14 @@ TextureImporter:
         width: 96
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83cec85d30ecfaf499099c340c461310
-      internalID: 481888398
+      spriteID: e2c631998af34c64c826f9615d441922
+      internalID: 1619504055
       vertices: []
       indices: 
       edges: []
@@ -304,15 +304,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      curlyhair_idle_strip9_3: -158346133
-      curlyhair_idle_strip9_1: 2021909591
-      curlyhair_idle_strip9_2: -1377436567
-      curlyhair_idle_strip9_7: 1387932191
-      curlyhair_idle_strip9_6: -1632484306
-      curlyhair_idle_strip9_8: 481888398
-      curlyhair_idle_strip9_4: 1605940840
-      curlyhair_idle_strip9_0: 445782305
-      curlyhair_idle_strip9_5: 1119306829
+      base_idle_strip9_1: 1191120630
+      base_idle_strip9_2: 1102144291
+      base_idle_strip9_5: 700679091
+      base_idle_strip9_4: -441211880
+      base_idle_strip9_3: -434225320
+      base_idle_strip9_6: 698062621
+      base_idle_strip9_7: 1925171097
+      base_idle_strip9_8: 1619504055
+      base_idle_strip9_0: -263215791
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
