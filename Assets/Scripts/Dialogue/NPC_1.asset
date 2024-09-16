@@ -12,3 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e99b6d26e3853f418a93a79273ab2cf, type: 3}
   m_Name: NPC_1
   m_EditorClassIdentifier: 
+  actor: {fileID: 2151405250780014894, guid: a78c1a72c3ff60448a24245a4bf5533c, type: 3}
+  speakSprite: {fileID: -2097564671, guid: 7b3113cb18ef0c442ac2222b944da473, type: 3}
+  sentence: 
+  dialogues:
+  - actorName: 
+    profile: {fileID: -2097564671, guid: 7b3113cb18ef0c442ac2222b944da473, type: 3}
+    sentence:
+      portuguese: Salve quebradinha!!
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: -2097564671, guid: 7b3113cb18ef0c442ac2222b944da473, type: 3}
+    sentence:
+      portuguese: Aqui estou mais um dia
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: -2097564671, guid: 7b3113cb18ef0c442ac2222b944da473, type: 3}
+    sentence:
+      portuguese: Sobre olhar sanguinario do vigia
+      english: 
+      spanish: 
